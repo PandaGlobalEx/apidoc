@@ -310,38 +310,23 @@ GET /api/v2/market/exchange
 #### 返回值
 
 {
-
-​    "code":0,
-
-​    "message":"操作成功",
-
-​    "data":[
-
-​        {
-
-​            "symbol":"bamb_usdt",
-
-​            "high":"6980",
-
-​            "vol":"43840.969259408004",
-
-​            "last":"6893.83",
-
-​            "low":"6758",
-
-​            "buy":"6893.82",
-
-​            "sell":"6893.83",
-
-​            "rose":"-0.2"
-
-​        }
-
-​    ],
-
-​    "success":true
-
+    "code":0,
+    "message":"操作成功",
+    "data":[
+        {
+            "symbol":"bamb_usdt",
+            "high":"6980",
+            "vol":"43840.969259408004",
+            "last":"6893.83",
+            "low":"6758",
+            "buy":"6893.82",
+            "sell":"6893.83",
+            "rose":"-0.2"
+        }
+    ],
+    "success":true
 }
+
 
 #### 返回值说明
 
@@ -372,27 +357,16 @@ GET /api/v2/market/exchange
 #### 返回值
 
 {
-
-  "code": 0,
-
-  "message": "操作成功",
-
-  "data": [{
-
-​    "ts": 1586914972285,
-
-​    "id": 733257336504610817,
-
-​    "amount": "30.00000000",
-
-​    "price": "0.0266",
-
-​    "direction": "buy"
-
-  }],
-
-  "success": true
-
+	"code": 0,
+	"message": "操作成功",
+	"data": [{
+		"ts": 1586914972285,
+		"id": 733257336504610817,
+		"amount": "30.00000000",
+		"price": "0.0266",
+		"direction": "buy"
+	}],
+	"success": true
 }
 
 #### 返回值说明
@@ -665,53 +639,22 @@ GET /api/v2/market/exchange
 **返回值**
 
 {
-
-​       "code": 0,
-
-​       "message": "操作成功",
-
-​       "data": {
-
-​              "id": 2545922,
-
-​              "ordersn": 728630309658341376,
-
-​              "userId": 18,
-
-​              "status": 3,
-
-​              "type": 1,
-
-​              "last": "0.000747",
-
-​              "lastCount": "0.00",
-
-​              "price": "0.000747",
-
-​              "count": "102.88",
-
-​              "amount": "0.07685136",
-
-​              "successAmount": "0.07685136",
-
-​              "leftCount": "0.00",
-
-​              "fees": "0.00000092",
-
-​              "leftFees": "0.00000000",
-
-​              "tradeCoin": "BAMB",
-
-​              "unitCoin": "USDT",
-
-​              "createTime": 1585811803000,
-
-​              "lastUpdatTime": 1585815882665
-
-​       },
-
-​       "success": true
-
+	"code": 0,
+	"message": "操作成功",
+	"data": {
+		"id": 1589166000,
+		"symbol": "bamb_usdt",
+		"high": "0.000766",
+		"low": "0.000711",
+		"amount": "50533241",
+		"vol": "50533241",
+		"count": 14312,
+		"last": "0.000752",
+		"rose": "-1.18",
+		"buy": "0.00071",
+		"sell": "0.000767"
+	},
+	"success": true
 }
 
 #### 返回值说明
