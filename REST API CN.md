@@ -95,8 +95,10 @@
 
 #### 示例
 
-\r\nAccessKeyId：75sA0dBfYy8Q8rQB
-\r\n签名密钥：ujvqPfRmV1eG2x75
+​	·  AccessKeyId：75sA0dBfYy8Q8rQB
+
+​	·  签名密钥：ujvqPfRmV1eG2x75
+
 ​	·  请求方法：POST
 ​	·  请求路径：/api/v2/order/orders/place/buy
 ​	·  请求参数：
