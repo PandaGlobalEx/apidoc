@@ -105,9 +105,9 @@
 
 ​	·  请求参数：
 
-​	·  	排序前：symbol=bamb_usdt&marketed=0&amount=10.00&price=0.85
+​	·     排序前：symbol=bamb_usdt&marketed=0&amount=10.00&price=0.85
 
-​	·  	排序后：amount=10.00&marketed=0&price=0.85&symbol=bamb_usdt
+​	·                排序后：amount=10.00&marketed=0&price=0.85&symbol=bamb_usdt
 
 ​	·  完整的签名字符串：POST\n/api/v2/order/orders/place/buy?amount=10.00&marketed=0&price=0.85&symbol=bamb_usdt
 
